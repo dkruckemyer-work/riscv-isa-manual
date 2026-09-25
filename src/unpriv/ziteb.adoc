@@ -35,6 +35,7 @@ instructions.
 Due to various prediction mechanisms, a hart may execute instructions in any
 order relative to program order as long as these program dependencies appear
 to be preserved.
+_Insert predicted program order here._
 Additionally, in the course of executing instructions out-of-order, a younger
 instruction has a _speculative dependency_ on an older instruction when at
 least one of the following is true:
